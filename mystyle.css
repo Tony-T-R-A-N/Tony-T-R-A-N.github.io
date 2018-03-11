@@ -1,12 +1,12 @@
 body {
     background-color: #1A1A1A;
-    background-image: url("background1.jpg");
+    background-image: url("images/background1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 h1 {
-    color: #808080;
+    color: #FFC266;
     font-weight: bold;
 }
 
@@ -15,9 +15,26 @@ h2 {
 }
 
 .container {
-    background-color: #FFB380;
-    background-color: rgb(26, 26, 26, .6);
     padding-bottom: 50px;
     padding-right: 50px;
     padding-left: 50px;
+}
+
+.container1 {
+    background-image: url(images/background2.png);
+    background-repeat: repeat;
+}
+
+.container2 {
+    background-image: url(images/background3.png);
+    background-repeat: repeat;
+}
+
+.container3 {
+    background-color: #000000;
+}
+
+#footer {
+    bottom: 0%;
+    position: fixed;
 }
