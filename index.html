@@ -21,30 +21,40 @@
                         <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
+                        <a class="nav-link" href="projects/projects.html">Projects</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <!--Content-->
-        <div class="container">
-            <div class="row ">
+        <div class="container container1">
+            <div class="row">
                 <div class="col-xs-4" style="margin-top:30px;">
-                    <img class="rounded" src="tony.jpg" alt="Tony's Picture" width="239.5" height="240">
+                    <img class="rounded" src="images/tony.jpg" alt="tonypicture" width="239.5" height="240" style="opacity:0.5; filter:alpha(opacity=50);">
                 </div>
                 <div class="col-xs-8" style="margin-top:30px; margin-left:50px;">
-                    <a href="https://www.linkedin.com/in/tranx/"><img src="LinkedInIcon.png" width="50" height="50"></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs" style="margin-top:50px;">
-                    <h1>Purpose</h1>
-                    <h2>This website's main purpose is for educational use and to demo my projects.</h2>
-                    <br>
-                    <h1>Note</h1>
-                    <h2>If there is a project that you would like me to work on, please contact me via e-mail: TranTonyEmail@Gmail.com.</h2>
+                    <a href="https://www.linkedin.com/in/tranx/"><img class="rounded" src="images/icon1.png" alt="linkedin" width="50" height="50"/></a>
                 </div>
             </div>
         </div>
+        <div class="container container2">
+            <div class="row">
+                <div id="accordion">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h1>Purpose</h1>
+                    </button>
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h1>Note</h1>
+                    </button>
+                    <div id="collapseOne" class="collapse" data-parent="#accordion">
+                        <h2>This website's main purpose is for educational use and to demo my projects.</h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                        <h2>If there is a project that you would like me to work on, please contact me via e-mail: TranTonyEmail@Gmail.com.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p id="footer" style="text-align:right;">2018, Designed by Tony Tran. Coded by Tony Tran.</p>
     </body>
 </html>
