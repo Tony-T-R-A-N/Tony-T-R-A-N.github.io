@@ -11,7 +11,7 @@
     </head>
     <body>
         <!--NAVBAR-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark navbarBg">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,19 +27,35 @@
             </div>
         </nav>
         <!--Parallax Image-->
-        <div class="parallax1"></div>
+        <div class="parallax bgimg1">
+            <div class="caption">
+                <span class="border">The Best Solution for Everything</span>
+            </div>
+        </div>
         <!--Content-->
         <div class="container container1">
             <div class="row">
-                <div class="col-xs-4 topSpace">
+                <div class="col-xs-4 space">
                     <img class="rounded fadePicture" src="images/tony.jpg" alt="tonypicture" width="239.5" height="240">
                 </div>
-                <div class="col-xs-8 topSpace leftSpace">
+                <div class="col-xs-4 topSpace">
                     <a href="https://www.linkedin.com/in/tranx/"><img class="rounded" src="images/icon1.png" alt="linkedin" width="50" height="50"/></a>
+                </div>
+                <div class="col-xs-4 topSpace leftSpace">
+                    <h1>About me</h1>
+                    <h2>Name: Tony Tran</h2>
+                    <h2>Graduated From: University of Minnesota - Twin Cities</h2>
+                    <h2>Majors: Computer Science and Physiology</h2>
+                    <h2>Occupation: Software Engineer</h2>
                 </div>
             </div>
         </div>
-        <div class="container container2">
+        <div class="parallax bgimg2">
+            <div class="caption">
+                <span class="border">Tackle Challenges Daily</span>
+            </div>
+        </div>
+        <div class="container container1">
             <div class="row">
                 <div id="accordion">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -48,13 +64,19 @@
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <h1>Note</h1>
                     </button>
-                    <div id="collapseOne" class="collapse" data-parent="#accordion">
+                    <div id="collapseOne" class="collapse space" data-parent="#accordion">
                         <h2>This website's main purpose is for educational use and to demo my projects.</h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                        <h2>If there is a project that you would like me to work on, please contact me via e-mail: TranTonyEmail@Gmail.com.</h2>
+                    <div id="collapseTwo" class="collapse space" data-parent="#accordion">
+                        <h2>If there is a project that you would like me to work on, please contact me via </h2>
+                        <h2>E-Mail: TranTonyEmail@Gmail.com.</h2>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="parallax bgimg3">
+            <div class="caption">
+                <span class="border">LEARN. USE. SOLVE.</span>
             </div>
         </div>
         <p id="footer">2018, Designed by Tony Tran. Coded by Tony Tran.</p>
