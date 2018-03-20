@@ -1,8 +1,5 @@
 body {
     background-color: #1A1A1A;
-    background-image: url("images/background1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: Impact, Charcoal, sans-serif;
 }
 
@@ -38,4 +35,27 @@ h2 {
 #footer {
     bottom: 0%;
     position: fixed;
+    text-align: right;
+}
+
+.topSpace {
+    margin-top: 30px;
+}
+
+.leftSpace {
+    margin-left: 50px;
+}
+
+.fadePicture {
+    opacity: 0.5;
+    filter: alpha(opacity = 50);
+}
+
+.parallax1 {
+    background-image: url("images/background1.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
