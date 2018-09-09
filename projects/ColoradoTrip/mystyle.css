@@ -25,7 +25,7 @@ td {
 }
 
 .text-title {
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     font-weight: bold;
     color: #CC0000;
@@ -41,6 +41,9 @@ td {
 
 .bg-theme {
     background-color: #CC0000;
+}
+
+.content {
 }
 
 #footer {
