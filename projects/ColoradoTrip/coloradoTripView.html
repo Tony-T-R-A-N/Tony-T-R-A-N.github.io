@@ -8,157 +8,33 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <audio id="music">
-        <source src="FriendMusic.mp3" type="audio/mpeg">
-    </audio>
-    <script>
-        var file = document.getElementById("music");
-
-        function playAudio() {
-            file.play();
-        }
-    </script>
 </head>
-<body onclick="playAudio()">
-    <!-- Parallax Top -->
-    <div class="parallax parallax1 bgimg1">
-        <div class="caption caption_top">
-            <span class="border">Five grads all wanna go to the Mile High City...</span>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-dark fixed-top bg-theme">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="coloradoTripView.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="coloradoTripScheduleView.html">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="spotify:user:12180845712:playlist:6rOOZLaUxRo9R1Xu8IdKkb">Playlist</a>
+                </li>
+            </ul>
         </div>
-        <div class="caption caption_bottom">
-            <span class="border">Will they all be able to get along?????</span>
-        </div>
-    </div>
-    <!-- Expectations -->
-    <div class="container text-centered">
-        <div class="row">
-            <div class="col-sm topSpace">
-                <h1 class="text">Expectations</h1>
-            </div>
-        </div>
-    </div>
+    </nav>
+    <!-- Content -->
     <div class="container topSpace bottomSpace">
         <div class="row">
             <div class="col-sm">
-                <h1 class="text_list_title">Dave</h1>
-                <ul>
-                    <li class="text_list_body">Reggae Star</li>
-                    <li class="text_list_body">Seeing Spectacular Stupendous Sunsets</li>
-                    <li class="text_list_body">Fun Photos With Friends</li>
-                </ul>
-            </div>
-            <div class="col-sm">
-                <h1 class="text_list_title">Carmen</h1>
-                <ul>
-                    <li class="text_list_body">NA</li>
-                    <li class="text_list_body">NA</li>
-                    <li class="text_list_body">NA</li>
-                </ul>
-            </div>
-            <div class="col-sm">
-                <h1 class="text_list_title">Peter</h1>
-                <ul>
-                    <li class="text_list_body">Food</li>
-                    <li class="text_list_body">NA</li>
-                    <li class="text_list_body">NA</li>
-                </ul>
-            </div>
-            <div class="col-sm">
-                <h1 class="text_list_title">Pana</h1>
-                <ul>
-                    <li class="text_list_body">Hiking</li>
-                    <li class="text_list_body">Hot Springs</li>
-                    <li class="text_list_body">A/C</li>
-                </ul>
-            </div>
-            <div class="col-sm">
-                <h1 class="text_list_title">Tony</h1>
-                <ul>
-                    <li class="text_list_body">PTO Usage</li>
-                    <li class="text_list_body">Travel</li>
-                    <li class="text_list_body">Make Moments</li>
-                </ul>
             </div>
         </div>
-    </div>
-    <div class="parallax parallax2 bgimg1">
-    </div>
-    <!-- Date/Time -->
-    <div class="container text-centered">
-        <div class="row">
-            <div class="col-sm topSpace">
-                <h1 class="text">Date & Time</h1>
-            </div>
-        </div>
-    </div>
-    <div class="container topSpace bottomSpace">
-        <div class="row bottomSpace">
-            <div class="col-sm">
-                <h1 class="text_list_title">Date of Vacation: </h1>
-                <h1>September 14th to 17th</h1>
-            </div>
-        </div>
-        <div class="row bottomSpace">
-            <div class="col-sm">
-                <h1 class="text_list_title">Airport Arrival Time: </h1>
-                <h1>6:00AM</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <h1 class="text_list_title">Airport Depart Time: </h1>
-                <h1>10:00PM</h1>
-            </div>
-        </div>
-    </div>
-    <div class="parallax parallax2 bgimg1">
-    </div>
-    <!-- Location -->
-    <div class="container text-centered">
-        <div class="row">
-            <div class="col-sm topSpace">
-                <h1 class="text">Location</h1>
-            </div>
-        </div>
-    </div>
-    <div class="container topSpace bottomSpace">
-        <div class="row">
-            <div class="col-sm">
-                <a href="https://www.pagosahotsprings.com/"><h1 class="text_list_title">Pagosa Hot Springs</h1></a>
-            </div>
-        </div>
-    </div>
-    <div class="parallax parallax2 bgimg1">
-    </div>
-    <!-- Plane -->
-    <div class="container text-centered">
-        <div class="row">
-            <div class="col-sm topSpace">
-                <h1 class="text">Plane</h1>
-            </div>
-        </div>
-    </div>
-    <div class="parallax parallax2 bgimg1">
-    </div>
-    <!-- Eat -->
-    <div class="container text-centered">
-        <div class="row">
-            <div class="col-sm topSpace">
-                <h1 class="text">Eat</h1>
-            </div>
-        </div>
-    </div>
-    <div class="parallax parallax2 bgimg1">
-    </div>
-    <!-- Price -->
-    <div class="container text-centered">
-        <div class="row">
-            <div class="col-sm topSpace">
-                <h1 class="text">Price</h1>
-            </div>
-        </div>
-    </div>
-    <div class="parallax parallax2 bgimg1">
     </div>
     <p id="footer">2018, Designed & Coded by Tony Tran.</p>
 </body>
