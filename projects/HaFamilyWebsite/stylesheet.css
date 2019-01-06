@@ -46,3 +46,16 @@ body {
   background: #bb0000;
   color: white;
 }
+
+.carouselImage {
+  width: auto;
+  height: 500px;
+  max-height: 500px;
+}
+
+@media only screen and (max-width: 480px) {
+    .carouselImage {
+      width: auto;
+      height: 250px;
+    }
+}
