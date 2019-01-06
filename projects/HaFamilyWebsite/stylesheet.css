@@ -2,14 +2,24 @@ body {
     background-color: #FFFFCC;
 }
 
-.parallax {
+.parallax1 {
     background-attachment: fixed;
     opacity: 0.35;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
-    background-image: url("https://scontent.ffcm1-1.fna.fbcdn.net/v/t31.0-8/27748249_10215416345026281_5119372098363962559_o.jpg?_nc_cat=110&_nc_ht=scontent.ffcm1-1.fna&oh=05898a641c273435f936deda5abcde32&oe=5CCD1306");
+    background-image: url("https://scontent.ffcm1-2.fna.fbcdn.net/v/t1.0-9/25550533_10213297538745683_4588886077353141777_n.jpg?_nc_cat=102&_nc_ht=scontent.ffcm1-2.fna&oh=03dace34a6d1ba9d0f54d6509deb0f7f&oe=5CCBF246");
+}
+
+.parallax2 {
+    background-attachment: fixed;
+    opacity: 0.35;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    background-image: url("https://scontent.ffcm1-1.fna.fbcdn.net/v/t1.0-9/19247898_10213521359061051_3683640166653848782_n.jpg?_nc_cat=110&_nc_ht=scontent.ffcm1-1.fna&oh=b2664077dc08b1d45c3d1902c466c1a0&oe=5CC5CB13");
 }
 
 .container {
