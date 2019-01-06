@@ -68,6 +68,10 @@ body {
     text-shadow: 2px 2px #000000;
 }
 
+.smallText {
+    font-size: 1em
+}
+
 @media only screen and (max-width: 480px) {
     .carouselImage {
       width: auto;
