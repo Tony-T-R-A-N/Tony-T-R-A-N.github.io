@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
-    background-image: url("https://scontent.ffcm1-2.fna.fbcdn.net/v/t1.0-9/25550533_10213297538745683_4588886077353141777_n.jpg?_nc_cat=102&_nc_ht=scontent.ffcm1-2.fna&oh=03dace34a6d1ba9d0f54d6509deb0f7f&oe=5CCBF246");
+    background-image: url(Photos/parallax_one.jpg);
 }
 
 .parallax2 {
@@ -19,7 +19,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
-    background-image: url("https://scontent.ffcm1-1.fna.fbcdn.net/v/t1.0-9/19247898_10213521359061051_3683640166653848782_n.jpg?_nc_cat=110&_nc_ht=scontent.ffcm1-1.fna&oh=b2664077dc08b1d45c3d1902c466c1a0&oe=5CC5CB13");
+    background-image: url(Photos/parallax_two.jpg);
 }
 
 .container {
@@ -32,29 +32,6 @@ body {
 
 .bottom_space {
     padding-bottom: 100px;
-}
-
-.fa {
-  padding: 10px;
-  font-size: 15px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 2.5px 1px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
 }
 
 .carouselImage {
