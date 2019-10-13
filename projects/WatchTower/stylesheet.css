@@ -1,0 +1,172 @@
+body {
+    background-color: rgba(215, 215, 215, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* head start */
+.head_container {
+    height:84px;
+    background-color:#D8D8D8;
+    font-style:normal;
+    font-weight:700;
+}
+
+.head_brand_image {
+    float: left;
+}
+
+.head_brand_text {
+    height: 50px; 
+    width: 525px; 
+    font-size: 25px;
+    float: left; 
+    margin-left: 50px; 
+    margin-top: 16px; 
+}
+
+.head_search_button {
+    height: 58px;
+    width: 71px;
+    background-color: #C4C4C4;
+    background-image: url("./search.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 14px;
+}
+/* head end */
+
+/* filter start */
+.filter_bar {
+    height: 55px;
+    width: 100%;
+    background-color: #000000;
+    float: left;
+}
+
+.filter_button {
+    height: 35px;
+    width: 195px;
+    background-color: #c4c4c4;
+    border: none;
+    margin-top: 10px;
+    margin-left: 28px;
+    font-weight: bold;
+}
+/* filter end */
+
+/* card start */
+#inbox {
+    width:60%;
+    height: 800px;
+    background-color: #EFECE3;
+    float: left;
+    margin-bottom: 5px;
+    overflow-y: scroll;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card_inbox_container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#card_results {
+    color: rgba(51, 51, 51, 1);
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#card_results_header {
+    float: left;
+    margin-right: 10px;
+}
+
+#card_results_description {
+    font-size:24px;
+    font-style:normal;
+    margin-left: 20px;
+}
+
+.card_container {
+    height:265px;
+    background-color:#F4F4F4;
+    border-radius:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card_id {
+    font-size:24px;
+    font-style:normal;
+    float: right;
+}
+
+.card_description {
+    font-size:32px;
+    font-style:normal;
+    font-weight:bold;
+}
+
+.card_header {
+    color: rgba(157, 157, 157, 1);
+    line-height: 2px;
+}
+/* card end */
+
+/* pane start */
+#pane {
+    width: 40%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#pane_content {
+    height: 780px;
+    background: #FDF6DD;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}
+
+#pane_bill_number {
+    font-size:48px;
+    font-style:normal;
+    font-weight:bold;
+}
+
+.pane_header {
+    font-size:20px;
+    font-style:normal;
+    font-weight:bold;
+}
+/* pane end */
+
+/* overlay start */
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#overlay_content {
+    width: 500px;
+    background-color: #c4c4c4;
+    margin-top: 8.55%;
+    margin-left: 36px;
+}
+/* overlay end */

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+        <script src="NetworkManager.js" type="text/javascript"></script>
+        <script src="Controller.js" type="text/javascript"></script>
+        <script src="ViewController.js" type="text/javascript"></script>
+        <script src="ViewGenerator.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="head_container">
+            <h1 class="head_brand_image"><img src="./watchtower.svg" alt="Watchtower Brand" height="50" width="50"> WATCHTOWER</h1>
+            <input class="head_brand_text" type="text" id="search_text_input" placeholder="browse bills">
+            <input type="button" class="head_search_button" onclick="searchButtonClicked()"/>
+        </div>
+        <div class="filter_bar">
+            <button class="filter_button" onclick="topicFilterButtonClicked()">Topic</button>
+            <button class="filter_button" onclick="filterButtonClicked()">Committee</button>
+            <button class="filter_button" onclick="filterButtonClicked()">Hearing Recency</button>
+            <button class="filter_button" onclick="filterButtonClicked()">Bill Number</button>
+            <button class="filter_button" onclick="filterButtonClicked()">Sort By</button>
+        </div>
+        <div id="card_results"></div>
+        <div id="inbox"><script>showInitCard();</script></div>
+        <div id="pane"><script>showInitPane();</script></div>
+        <div id="overlay">
+            <div id="overlay_content"></div>
+        </div>
+    </body>
+</html>
