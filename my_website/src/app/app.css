@@ -1,0 +1,76 @@
+.App {
+  background-color: #faddeb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App-header {
+  background-color: #77B2B7;
+  color: #0D0D0D;
+  display: flex;
+  flex-direction: row;
+  font-size: calc(8px + 2vmin);
+  font-weight: bold;
+  justify-content: space-between;
+  height: 30vh;
+}
+
+.App-body {
+  font-size: calc(8px + 2vmin);
+  height: 100%;
+}
+
+.App-header-avatar {
+  align-self: flex-start;
+  height: auto;
+  width: calc(100vh - 80vh);
+}
+
+.App-header-logo {
+  align-self: flex-end;
+  height: auto;
+  width: calc(100vh - 95vh);
+}
+
+.App-header-description {
+  height: auto;
+  text-align: right;
+}
+
+.border {
+  border-radius: 25px;
+  border: 2px solid #77B2B7;
+}
+
+.center {
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience {
+  font-size: calc(6px + 2vmin);
+  justify-content: space-between;
+  text-align: end;
+}
+
+.experience-image {
+  height: auto;
+  width: calc(100vh - 90vh);
+}
+
+.parallax {
+  position: relative;
+  opacity: 0.80;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}

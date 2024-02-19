@@ -1,0 +1,34 @@
+.margin-horizontal-1vh {
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.margin-horizontal-2vh {
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.margin-horizontal-2vh {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+.margin-left-1vh {
+    margin-left: 1vh;
+}
+
+.margin-top-2vh {
+    margin-top: 2vh;
+}
+
+.margin-top-1vh {
+    margin-top: 1vh;
+}
+
+.margin-2vh {
+    margin: 2vh;
+}
+
+.padding-2vh {
+    padding: 2vh;
+}
