@@ -1,4 +1,4 @@
-function Bio() {
+const Bio = () => {
     return (
         <div className='border padding-2vh'>
             <h2>About me</h2>

@@ -4,7 +4,7 @@ import Experience from './app.experience';
 import Project from './app.project';
 import './common/marginPadding.css';
 
-function Body() {
+const Body = () => {
   return (
     <body className='App-body padding-2vh'>
       <Bio />
@@ -14,7 +14,7 @@ function Body() {
   );
 }
 
-function Header() {
+const Header = () => {
   return (
     <header className='App-header'>
       <div className='col'>
@@ -38,7 +38,7 @@ function Header() {
   );
 }
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
       <Header />
