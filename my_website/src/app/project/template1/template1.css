@@ -1,4 +1,45 @@
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    height: 100vh;
+}
+
+.company-logo {
+    color: #626262;
+    font-weight: bold;
+}
+
+.header {
+    color: #b2b2b2;
+    justify-content: space-between;
+    font-size: calc(8px + 2vmin);
+}
+
 .template1 {
+    background-color: rgb(56, 56, 56);
     background-image: url('https://media.istockphoto.com/id/1323637777/photo/a-man-and-a-woman-clinking-coffee-mugs-in-cafe.jpg?s=1024x1024&w=is&k=20&c=kw_IRLljs6p8rOyYr4NhM1jOkXPiA_90bcywJ6w0T-M=');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
     height: 100%;
+    text-transform: uppercase;
+}
+
+.template1-menu {
+    font-size: calc(8px + 2vmin);
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
 }

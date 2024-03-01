@@ -1,3 +1,6 @@
+import './common/layout.css';
+import './common/padding.css';
+
 const Bio = () => {
     return (
         <div className='border padding-2vh'>

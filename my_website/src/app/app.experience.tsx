@@ -1,3 +1,7 @@
+import './common/layout.css';
+import './common/margin.css';
+import './common/padding.css';
+
 interface ImageColumnProps {
     imageUrls: string[];
 }

@@ -1,5 +1,8 @@
-import { Outlet } from "react-router-dom";
-import AppBar from "../../common/appbar.component";
+import '../../common/layout.css';
+import '../../common/margin.css';
+import '../template1/template1.css'
+import AppBar from './template1.appbar.component';
+import { Outlet } from 'react-router-dom';
 
 var items = [
     {
@@ -14,9 +17,14 @@ var items = [
 
 const Template1 = () => {
     return (
-        <div>
-            <AppBar items={items} />
-            <Outlet />
+        <div className='template1'>
+            <header className='header row'>
+                <p className='company-logo margin-left-2vh'>SILLY COFFEE</p>
+                <AppBar items={items} />
+            </header>
+            <body>
+                <Outlet />
+            </body>
         </div>
     );
 }

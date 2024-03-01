@@ -2,7 +2,9 @@ import Bio from './app.bio';
 import './app.css';
 import Experience from './app.experience';
 import Project from './app.project';
-import './common/marginPadding.css';
+import './common/layout.css';
+import './common/margin.css';
+import './common/padding.css';
 
 const Body = () => {
   return (
